@@ -26,7 +26,7 @@
 
 #### 1.2.2 Ansible 설치
 
-```bash
+```shell
 $ sudo apt update
 $ sudo apt install -y software-properties-common
 $ sudo apt-add-repository -y -u ppa:ansible/ansible
@@ -35,14 +35,14 @@ $ sudo apt install -y ansible
 
 #### 1.2.3 Ansible 명령 쉘 자동완성
 
-```bash
+```shell
 $ sudo apt install -y python3-argcomplete
 $ sudo activate-global-python-argcomplete3
 ```
 
 #### 1.2.4 Ansible Lint 설치
 
-```bash
+```shell
 $ sudo apt install -y ansible-lint
 $ exec bash
 ```
